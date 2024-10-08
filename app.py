@@ -3,8 +3,17 @@ import pickle
 import string
 from nltk.corpus import stopwords
 import nltk
-nltk.download('stopwords')
 nltk.download('punkt_tab')
+from nltk.corpus import stopwords
+import os
+
+# Ensure stopwords are available
+nltk_data_path = os.path.join(os.path.expanduser("~"), "nltk_data")
+if not os.path.exists(nltk_data_path):
+    nltk.download('stopwords', download_dir=nltk_data_path)
+
+stop_words = set(stopwords.words('english'))
+
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 
