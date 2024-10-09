@@ -9,6 +9,7 @@ The primary goal of this project is to build a spam detection system that can ac
 •	Text preprocessing to clean and prepare data for modeling.
 
 •	Experimenting with different classification models and identifying the best one for the task.
+
 •	Saving the trained model and vectorizer using Pickle for future reuse.
 
 •	Developing a Streamlit app for the user to input messages and receive predictions.
