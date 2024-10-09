@@ -1,5 +1,5 @@
-https://email-sms-spam-detection-machine-bq47.onrender.com
-http://localhost:8501/
+http://localhost:8501/    https://email-sms-spam-detection-machine-bq47.onrender.com
+
 
 Introduction
 
