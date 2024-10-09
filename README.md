@@ -1,3 +1,5 @@
+https://email-sms-spam-detection-machine-bq47.onrender.com
+
 Introduction
 
 This project is focused on building an Email/SMS Spam Classifier. The goal is to classify incoming messages as Spam or Not Spam using Natural Language Processing (NLP) techniques and machine learning models. By leveraging the power of the Multinomial Naive Bayes algorithm, this project aims to offer a reliable prediction model for detecting spam messages. A web-based application is created using Streamlit to allow users to interact with the classifier.
