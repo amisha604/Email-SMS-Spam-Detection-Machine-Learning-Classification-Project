@@ -1,12 +1,19 @@
 Introduction
+
 This project is focused on building an Email/SMS Spam Classifier. The goal is to classify incoming messages as Spam or Not Spam using Natural Language Processing (NLP) techniques and machine learning models. By leveraging the power of the Multinomial Naive Bayes algorithm, this project aims to offer a reliable prediction model for detecting spam messages. A web-based application is created using Streamlit to allow users to interact with the classifier.
 ________________________________________
 Project Overview
+
 The primary goal of this project is to build a spam detection system that can accurately classify SMS and email messages as spam or not spam. The objectives of this project include:
+
 •	Text preprocessing to clean and prepare data for modeling.
+
 •	Experimenting with different classification models and identifying the best one for the task.
+
 •	Saving the trained model and vectorizer using Pickle for future reuse.
+
 •	Developing a Streamlit app for the user to input messages and receive predictions.
+
 •	Deploying the app on Render for easy accessibility.
 ________________________________________
 Technologies Used
